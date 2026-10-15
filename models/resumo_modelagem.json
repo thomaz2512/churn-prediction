@@ -1,0 +1,24 @@
+{
+  "modelo": "Random Forest",
+  "metrica": "roc_auc",
+  "cv_folds": 5,
+  "cv_resultados": [
+    {
+      "modelo": "Random Forest",
+      "roc_auc_cv": 0.8492
+    },
+    {
+      "modelo": "Gradient Boosting",
+      "roc_auc_cv": 0.8477
+    },
+    {
+      "modelo": "Regressão Logística",
+      "roc_auc_cv": 0.8467
+    }
+  ],
+  "melhores_parametros": {
+    "max_depth": 8,
+    "min_samples_leaf": 3,
+    "n_estimators": 800
+  }
+}
